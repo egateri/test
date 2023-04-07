@@ -19,7 +19,7 @@ body {
   padding-right: 5%;
   padding-bottom: 10%;
   padding-left: 5%;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   /* font-family: 'Gabriela', serif; */
 }
 .services{
@@ -34,8 +34,7 @@ body {
   padding-right: 0%;
   padding-bottom: 3%;
   padding-left: 0%;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
  
   /* font-family: 'Gabriela', serif; */
 }
@@ -48,10 +47,11 @@ body {
   color: white;
   text-align: center;
   /* padding:3%;  */
-  margin-top: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   padding-top: 2%;
   padding-right: 0%;
-  padding-bottom: 1%;
+  padding-bottom: 5%;
   padding-left: 0%;
   /* font-family: 'Gabriela', serif; */
 }
@@ -65,9 +65,7 @@ h5
   text-align: center;
 }
 
-.space {
-  margin-top: 20px;
-}
+
 
 #card1 {
   position: absolute;
@@ -104,23 +102,64 @@ h5
 
 input {
   background: transparent;
-  border: solid;
   border-width: 0.1ch;
   border-color: white;
   color: white !important;
   font-weight: bolder;
-  opacity: 1;
+  /* opacity: 1; */
+ 
 }
 
 textarea {
   background: transparent;
-  border: 1px solid white;
-  height: 200px;
+  border-width: 0.1ch;
+  border-color: white;
+  height: 240px;
   color: white !important;
   font-weight: bolder;
-  width: 70%;
-  outline: none;
+  width: 80%;
+  /* outline: none; */
+  margin-left: 10%;
+  margin-right: 10%;
+  /* float: left; */
 }
+
+#email::-webkit-input-placeholder
+{ 
+  color: white; 
+}
+#name::-webkit-input-placeholder
+{ 
+  color: white; 
+}
+#textarea::-webkit-input-placeholder
+{ 
+  color: white; 
+}
+
+
+#name {
+  width: 41%;
+  height:30px;
+  margin-left: 10%;
+  /* margin-right: 5%; */
+  float: left;
+}
+#email {
+  width: 37%;
+  height:30px;
+  /* margin-left: 10%; */
+  float: right;
+  margin-right: 10%;
+}
+
+#submit {
+  float: left;
+  margin-left: 10%;
+  height:35px;
+  /* margin-top:5px; */
+}
+
 
 /* input[type=text], input[type=email], textarea {
 background: transparent;
@@ -128,41 +167,37 @@ color: white !important;
 } */
 
 @media screen and (max-width: 1200px) {
-  /* #photo {
-    height: 350px;
+
+
+  textarea{
+    height:190px;
   }
-  textarea {
-    height: 130px;
-  } */
+  
 }
 
 @media screen and (max-width: 800px) {
-  /* #photo {
-    height: 300px;
+ 
+  textarea{
+    height:150px;
   }
-  textarea {
-    height: 90px;
-  }
-  label {
-    display: none;
-  } */
+
+ 
+  
 }
 
 @media screen and (max-width: 576px) {
-  /* #photo {
-    height: 280px;
+  textarea{
+    height:120px;
   }
-  textarea {
-    height: 75px;
-  } */
+
+ 
 }
 @media screen and (max-width: 400px) {
-  /* #photo {
-    height: 260px;
+  textarea{
+    height:100px;
   }
-  textarea {
-    height: 45px;
-  } */
+
+ 
 }
 
 #div1,
