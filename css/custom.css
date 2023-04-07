@@ -116,17 +116,22 @@ textarea {
   outline: none;
 }
 
+/* input[type=text], input[type=email], textarea {
+background: transparent;
+color: white !important;
+} */
+
 @media screen and (max-width: 1200px) {
-  /* #photo {
+  #photo {
     height: 350px;
   }
   textarea {
     height: 130px;
-  } */
+  }
 }
 
 @media screen and (max-width: 800px) {
-  /* #photo {
+  #photo {
     height: 300px;
   }
   textarea {
@@ -134,24 +139,24 @@ textarea {
   }
   label {
     display: none;
-  } */
+  }
 }
 
 @media screen and (max-width: 576px) {
-  /* #photo {
+  #photo {
     height: 280px;
   }
   textarea {
     height: 75px;
-  } */
+  }
 }
 @media screen and (max-width: 400px) {
-  /* #photo {
+  #photo {
     height: 260px;
   }
   textarea {
     height: 45px;
-  } */
+  }
 }
 
 #div1,
